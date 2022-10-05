@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyinstaller-sample"
+version = "0.1.0"
+description = ""
+authors = ["umt0120"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pyinstaller_sample"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^5.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
